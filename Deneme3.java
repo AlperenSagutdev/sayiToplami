@@ -12,10 +12,7 @@ public class Deneme3 {
             if ( n % 4 == 0) {
                 total +=n;
 
-            } else {
-                System.out.println("Tek sayı Girdiniz");
-                break;
-            }
+            } 
         } while (n % 2 == 0);
         System.out.println("Çift ve 4 e bölünebilen tam sayıların Toplamı: "+total);
 
